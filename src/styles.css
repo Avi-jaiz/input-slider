@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn {
+  position: relative;
+  right: 2.5rem;
+}
+.inputType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.srink {
+  /* width:5rem;
+  height: 1rem; */
+  width: 0.0001px;
+  border: none;
+
+  transition: width 2s;
+}
+.grow {
+  width: 15rem;
+  height: 1.5rem;
+  border: 2px solid blue;
+  border-radius: 0.2rem;
+
+  transition: width 2s;
+}
+
+.down {
+  width: 2rem;
+  height: 2rem;
+  font-weight: bold;
+
+  background-color: green;
+  border: none;
+}
+.right {
+  width: 2rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: red;
+  border: none;
+}
